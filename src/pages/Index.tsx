@@ -18,6 +18,7 @@ const games = [
   { title: 'Color Match', description: 'Does the color match the word?', icon: '🎨', path: '/game/color-match', gradient: 'bg-gradient-primary' },
   { title: 'Typing Speed', description: 'Type words as fast as you can!', icon: '⌨️', path: '/game/typing-speed', gradient: 'bg-gradient-accent' },
   { title: 'Math Sprint', description: 'Solve math problems fast!', icon: '🧮', path: '/game/math-sprint', gradient: 'bg-gradient-primary' },
+  { title: 'Ludo', description: '2 player classic board game!', icon: '🎲', path: '/game/ludo', gradient: 'bg-gradient-accent' },
 ];
 
 const Index = () => {

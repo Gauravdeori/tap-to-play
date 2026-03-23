@@ -25,6 +25,7 @@ A vibrant, modern collection of addictive mini-games built with React and Tailwi
 - **🎨 Color Match**: Does the color match the word?
 - **⌨️ Typing Speed**: Type words as fast as you can!
 - **🧮 Math Sprint**: Solve math problems fast!
+- **🎲 Ludo**: 2 player classic board game!
 
 ## 🛠️ Tech Stack
 

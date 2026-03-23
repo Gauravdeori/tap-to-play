@@ -19,6 +19,7 @@ import WhackAMole from "./components/games/WhackAMole.tsx";
 import ColorMatch from "./components/games/ColorMatch.tsx";
 import TypingSpeed from "./components/games/TypingSpeed.tsx";
 import MathSprint from "./components/games/MathSprint.tsx";
+import Ludo from "./components/games/Ludo.tsx";
 
 const queryClient = new QueryClient();
 
@@ -44,6 +45,7 @@ const App = () => (
           <Route path="/game/color-match" element={<ColorMatch />} />
           <Route path="/game/typing-speed" element={<TypingSpeed />} />
           <Route path="/game/math-sprint" element={<MathSprint />} />
+          <Route path="/game/ludo" element={<Ludo />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
